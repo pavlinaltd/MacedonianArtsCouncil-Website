@@ -1,0 +1,157 @@
+.zoomable-image {
+	margin-top: 10px; 
+	margin-left: 50px;
+	 display: flex;
+	 /*align-items: center;*/
+	 justify-content: left !important;
+	}
+.zoomable-image2 {
+		margin-top: 10px;
+		 display: flex;
+		 /*align-items: center;*/
+		 justify-content: left !important;
+		}
+.zoomable-image3 {
+			margin-top: 10px;
+			 margin-left: 40px;
+			 display: flex;
+			 /*align-items: center;*/
+			 justify-content: left !important;
+			}
+
+.wrapper {
+	width: 60%;
+	margin: 40px auto;
+}
+
+div.gallery {
+	margin-top: 30px;
+}
+
+div.gallery ul {
+	list-style-type: none;
+	margin-left: 35px;
+}
+
+/* animation */
+div.gallery ul li, div.gallery li img {
+	-webkit-transition: all 0.1s ease-in-out;
+  	-moz-transition: all 0.1s ease-in-out;
+  	-o-transition: all 0.1s ease-in-out;
+  	transition: all 0.1s ease-in-out;
+}
+
+div.gallery ul li {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	padding: 5px;
+	z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+/*div.gallery ul li:hover {
+	z-index: 5;
+}*/
+
+/* Image is position nicely under li */
+div.gallery ul li img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 1px solid #dddddd;
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	background: #f0f0f0;
+}
+
+/*div.gallery ul li img:hover {
+	width: 600px;
+	height: 600px;
+	margin-top: -130px;
+	margin-left: -400px;
+	top: 65%;
+	left: 65%;
+}*/
+
+
+
+
+/* Responsive hack */
+@media only screen and (min-width: 499px) and (max-width: 1212px) {
+	.wrapper {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 498px) {
+	.wrapper {
+		width: 300px;
+	}
+
+	div.gallery ul {
+		list-style-type: none;
+		margin: 0;
+	}
+}
+/*Box test*/
+
+/*Test*/
+
+/*#trigger {
+	display: none;
+  }
+  .checker {
+	background-image: url(../Images/Article-2.jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+  }
+  #trigger:checked + .checker {
+	background-size: auto 100%;
+	width: 1000px;
+	height: 600px;
+	background-repeat: no-repeat;
+  }
+  
+  #trigger1 {
+	display: none;
+  }
+  .checker1 {
+	background-image: url(../Images/Article-1\ .jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+  }
+  #trigger1:checked + .checker1 {
+	background-size: auto 100%;
+	width: 1000px;
+	height: 600px;
+	background-repeat: no-repeat;
+  }
+  #trigger2 {
+	display: none;
+  }
+  .checker2 {
+	background-image: url(../Images/Article-3.jpg);
+	background-size: auto 100%;
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+  }
+  #trigger2:checked + .checker2 {
+	background-size: auto 100%;
+	width: 1000px;
+	height: 600px;
+	background-repeat: no-repeat;
+  }*/
+
+.top {
+	z-index: 1;
+}

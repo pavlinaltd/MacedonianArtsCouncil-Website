@@ -1,0 +1,19 @@
+@media screen and (max-width: 640px) {
+  .thumbnails img {
+    margin-bottom: 1rem;
+  }
+  .zoomed {
+    display: none;
+  }
+  p {
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.4em;
+    margin: 0 0 20px 0;
+    color: #494949;
+  }
+}
+
+.zoom {
+  cursor: pointer;
+}
