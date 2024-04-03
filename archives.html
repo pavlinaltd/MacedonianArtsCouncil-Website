@@ -181,10 +181,32 @@
 				</div>
 			</div>
 		</section>
+		<!-- Animation for Blogs Flashing -->
+		<style>
+			.flash{
+				animation: animate 3s linear infinite; 
+			}
+			@keyframes animate{ 
+				0%{ 
+					opacity: 0; 
+				} 
+				50%{ 
+					opacity: 0.7; 
+				} 
+				100%{ 
+					opacity: 0; 
+				} 
+			} 
+		</style>
 
 		<section class="bg-light py-5">
 			<div class="container">
-				<h1 class="display-2 text-center text-md-left text-break" style="font-size: 5vw;">Blogs</h1>
+				<h1 
+					class="flash display-2 text-center text-md-left text-break" 
+					style="font-size: 5vw;"
+				>
+					Blogs
+				</h1>
 			</div>
 		</section>
 		<section
