@@ -169,31 +169,55 @@
 				<!-- Section for Ticker for Mail in different Macedonian Languages -->
 		<section>
 			<style>
-				@keyframes ticker-kf {
-					0% {
-					transform: translateX(0);
-					}
-
-					100% {
-					/* 10rem for each logo x 6 logos total = -60rem */
-					transform: translateX(-60rem);
-					}
-				}
-
-				.img-ticker {
-					display: flex;
-					margin-left: -1rem;
-					margin-right: -1rem;
-					animation: ticker-kf 50s linear infinite;
-				}
-
-				.tickerlogo {
-					width: 15rem;
-					flex: none;
-					margin: 0 1rem 0 1rem;
-					align-self: flex-start;
-					max-width: 100%;
+				#slideshow {
+					overflow: hidden;
 					height: auto;
+					width: 728px;
+					margin: 0 auto;
+				}
+				.slide {
+					float: left;
+					height: auto;
+					width: 728px;
+					text-align: center;
+				}
+				
+				/* Add animation to the slides */
+				
+				.slide-wrapper {
+					
+					/* Calculate the total width on the
+				basis of number of slides */
+					width: calc(728px * 4);
+					
+					/* Specify the animation with the
+				duration and speed */
+					animation: slide 10s ease infinite;
+				}
+				.slide-number {
+					width: 450px;
+					height: auto;
+				}
+							
+				/* Define the animation 
+				for the slideshow */
+				
+				@keyframes slide {
+					
+					/* Calculate the margin-left for 
+				each of the slides */
+					20% {
+						margin-left: 0px;
+					}
+					40% {
+						margin-left: calc(-728px * 1);
+					}
+					60% {
+						margin-left: calc(-728px * 2);
+					}
+					80% {
+						margin-left: calc(-728px * 3);
+					}
 				}
 			</style>
 
@@ -206,76 +230,39 @@
 				<br>
 				<div class="d-flex flex-column align-items-center">
 					<h2 class="display-2">Send us</h2>
+					<br>
+					<br>
 				</div>
-				<div class="mt-5 img-ticker">
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/email.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/message.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/poraka.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/Vest.png"
-					/>
-					<!-- Second Copy of Logos -->
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/email.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/message.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/poraka.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/Vest.png"
-					/>
-					<!-- Third Copy of Logos -->
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/email.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/message.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/poraka.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/Vest.png"
-					/>
-					<!-- Fourth Copy of Logos -->
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/email.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/message.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/poraka.png"
-					/>
-					<img 
-						class="tickerlogo"
-						src="./Images/Contact Us/Vest.png"
-					/>
-				</div>
+				<section>
+					<div id="slideshow">
+						<div class="slide-wrapper">
+							<div class="slide">
+								<img 
+									class="slide-number"
+									src="./Images/Contact Us/email.png"
+								/>
+							</div>
+							<div class="slide">
+								<img 
+									class="slide-number"
+									src="./Images/Contact Us/message.png"
+								/>
+							</div>
+							<div class="slide">
+								<img 
+									class="slide-number"
+									src="./Images/Contact Us/poraka.png"
+									/>
+							</div>
+							<div class="slide">
+								<img 
+									class="slide-number"
+									src="./Images/Contact Us/Vest.png"
+									/>
+							</div>
+						</div>				
+					</div>
+				</section>	
 			</div>		
 		</section>
 		<section class="mbr-section form4" id="form4-1o">
@@ -287,18 +274,12 @@
 							frameborder="0"
 							style="border: 0"
 							width="65%"
-							height="390"
+							height="385"
 							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.400188860183!2d-74.02025468417308!3d40.70920597933212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a102120aa23%3A0xb2d55772cb3a6246!2sMacedonian+Arts+Council!5e0!3m2!1sen!2sus!4v1555300802070!5m2!1sen!2sus"
 							allowfullscreen=""
 						></iframe>
 					</div>
 					<div class="col-md-5 px-md-0 px-4">
-						<h5 class="align-center mbr-fonts-style display-7 mb-2">
-							Mon-Fri, 9am-7pm EST
-						</h5>
-						<p class="mbr-text align-center mbr-fonts-style display-7 mb-2">
-							📱 +1 (212) 799 0009<br />
-							📧 info@macedonianarts.org			
 						<!---Contact Us Form--->
 						<form
 							class="contact-form"
@@ -341,6 +322,7 @@
 									placeholder="Message"
 									data-form-field="Message"
 									class="form-control input display-7"
+									style="height: 165px;"
 									id="message-form4-1o"
 									required
 								></textarea>
@@ -355,6 +337,19 @@
 						</form>
 					</div>
 				</div>
+					<!-- Hours and Contact -->
+					<h5 class="align-center mbr-fonts-style display-7 mb-2">
+					</h5>
+					<p class="mbr-text align-center mbr-fonts-style display-7 mb-2">
+						<strong>Hours</strong><br>
+						Monday to Friday: 9am - 7pm EST
+						<br>
+						<br>
+						<strong>Contact Information</strong>
+						<br>
+						(212) 799 - 0009<br>
+						info@macedonianarts.org			
+										
 			</div>
 		</section>
 
