@@ -8502,7 +8502,7 @@ section.lazy-placeholder:after {
 }
 .cid-row2962sBl {
 	padding-top: 90px;
-	padding-bottom: 15px;
+	padding-bottom: 90px;
 	background-color: #efefef;
 }
 .cid-row2962sBl .mbr-section-subtitle {
@@ -8515,7 +8515,7 @@ section.lazy-placeholder:after {
 	background: #ffffff;
 	margin-left: 2rem;
 	&:hover {
-		background: #801316;
+		background-color: #801316;
 	  }
 }
 .cid-row2962sBl .timeline-text-content p {
