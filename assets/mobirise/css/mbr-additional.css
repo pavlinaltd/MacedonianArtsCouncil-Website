@@ -8514,6 +8514,9 @@ section.lazy-placeholder:after {
 	padding: 2rem 2.5rem;
 	background: #ffffff;
 	margin-left: 2rem;
+	&:hover {
+		background: #801316;
+	  }
 }
 .cid-row2962sBl .timeline-text-content p {
 	margin-bottom: 0;
@@ -8527,7 +8530,7 @@ section.lazy-placeholder:after {
 	float: right;
 }
 .cid-row2962sBl .timeline-element {
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	position: relative;
 	word-wrap: break-word;
 	word-break: break-word;
@@ -8643,7 +8646,7 @@ section.lazy-placeholder:after {
 	float: right;
 }
 .cid-sIY0gvB0cn .timeline-element {
-	margin-bottom: 50px;
+	margin-bottom: 0px;
 	position: relative;
 	word-wrap: break-word;
 	word-break: break-word;
