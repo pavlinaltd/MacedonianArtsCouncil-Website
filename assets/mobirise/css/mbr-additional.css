@@ -8511,7 +8511,7 @@ section.lazy-placeholder:after {
 	font-weight: 300;
 }
 .cid-row2962sBl .timeline-text-content {
-	padding: 2rem 2.5rem;
+	padding: .5rem .5rem;
 	background: #ffffff;
 	margin-left: 2rem;
 	&:hover {
@@ -8525,7 +8525,7 @@ section.lazy-placeholder:after {
 	margin-right: 2rem;
 }
 .cid-row2962sBl .time-line-date-content p {
-	padding: 2rem 2.5rem;
+	padding: .5rem .5rem;
 	background: #ffffff;
 	float: right;
 }
