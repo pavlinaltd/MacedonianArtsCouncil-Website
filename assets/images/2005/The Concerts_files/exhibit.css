@@ -1,0 +1,80 @@
+#row-costumes {
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  overflow-x: scroll;
+  background-color: white;
+  position: relative;
+}
+
+#costumes-gallery {
+  height: 650px;
+}
+
+.card-author {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+  align-items: center;
+}
+
+.carousel-inner,
+.carousel-item,
+img {
+  height: 100%;
+}
+
+#row-costumes .carousel {
+  max-width: 500px !important;
+}
+
+.author-name {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  line-height: 1.5rem;
+}
+
+.author-name-prefix {
+  color: #000000;
+  font-family: arial;
+  font-weight: bold;
+}
+
+/*  card scrollbar */
+.cards::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.thumbnails img {
+  height: 100%;
+}
+
+.zoom {
+  cursor: pointer;
+}
+
+.zoomed {
+  object-fit: scale-down;
+}
+
+@media (max-width: 768px) {
+  .thumbnails .row,
+  #costumes-gallery {
+    height: unset;
+  }
+
+  .zoomed {
+    display: none;
+  }
+}
+
+@media (max-width: 989px) {
+  .cards {
+    font-size: 12pt !important;
+  }
+}

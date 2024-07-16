@@ -1,0 +1,405 @@
+.test::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: fixed;
+  will-change: transform;
+}
+.whispers-com-button {
+  display: flex;
+  justify-content: center;
+}
+.team-item > .item-caption {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.team-item > .item-caption > .item-name {
+  padding: 0 0.5rem;
+}
+.team-item > .item-caption > .item-name > p {
+  font-size: 1.1em;
+}
+.team-item > .item-caption > .item-name > p:first-child {
+  font-weight: 400;
+}
+.team-item > .item-caption > .item-social {
+  padding-top: 0.5rem;
+}
+.team-item > .item-caption > .item-social > a > span {
+  padding: 0.25rem;
+}
+.team-item > .item-caption > .item-social > a > span.academia-svg-span {
+  position: relative;
+  bottom: 25%;
+}
+.audio-works-link:hover {
+  color: white !important;
+  opacity: 0.5;
+}
+.grey-font {
+  color: #767676;
+}
+.iframe-partings-div,
+.maintain-aspect-ratio {
+  position: relative;
+  width: 100%;
+  padding-top: 100%;
+  padding-top: 56.25%;
+}
+.iframe-partings,
+.maintain-aspect-ratio > iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.com-buy[type="submit"],
+.com-buy[type="button"] {
+  border-radius: 100px;
+  padding: 1rem 3rem;
+  min-width: 220px;
+}
+.btn-md-nomargin {
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  padding: 1rem 3rem;
+  border-radius: 3px;
+}
+#info-button-map > span > svg:hover {
+  opacity: 0.7;
+  transition: all 0.3s ease-in-out;
+}
+#info-button-map:hover {
+  color: #d82126;
+  transition: all 0.3s ease-in-out;
+}
+.grow {
+  transition: all 0.3s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.05);
+}
+#back-top-button {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #d82126;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
+
+#back-top-button:hover {
+  background-color: #96171a;
+}
+/* //transition: all 0.3s ease-in-out;  */
+.relative-vermont-uni {
+  position: relative;
+  top: 65px;
+  z-index: 1;
+}
+.uni-pictures {
+  position: relative;
+  left: 25px;
+}
+.students-carousel-caption {
+  color: #767676;
+}
+.carousel-inner-edu {
+  background-color: #efefef;
+  color: white;
+  min-height: 500px;
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .home-card-text {
+    min-height: 250px;
+  }
+  .home-card-title {
+    min-height: 110px;
+  }
+  .young-buy-div {
+    position: relative;
+    bottom: 30%;
+  }
+  #back-top-button {
+    bottom: 20px;
+    right: 30px;
+    padding: 10px 17px;
+  }
+}
+@media (min-width: 992px) {
+  .map-quote {
+    padding: 0 8%;
+  }
+  .book-cover-div {
+    bottom: 14%;
+  }
+  .team-item > .item-caption > .item-name {
+    min-height: 3em;
+  }
+  .edu-col-text > div {
+    padding: 4em 2.5em 4em 3.5em;
+  }
+  .cid-rowjJvyg8P .image_wrapper {
+    height: 400px;
+  }
+  .carousel-inner-edu {
+    min-height: 500px;
+  }
+  .college-caption {
+    font-size: 0.95em;
+  }
+}
+@media (min-width: 1200px) {
+  .iframe-container-partings {
+    width: 60%;
+  }
+  .book-cover-div {
+    bottom: 12%;
+  }
+  .book-cover-div > img {
+    width: 92%;
+  }
+  .iframe-video-div-map {
+    width: 70%;
+  }
+  div.iframe-video-div:nth-child(2),
+  div.iframe-video-div:nth-child(3) {
+    width: 100%;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+  #back-top-button {
+    bottom: 28px;
+    right: 40px;
+    padding: 10px 17px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .margin-lilts-soundcloud {
+    margin: 4rem 0rem !important;
+  }
+  .home-card-button {
+    min-height: 60px;
+  }
+  .iframe-container-partings {
+    padding: 6% 15% !important;
+  }
+  .iframe-video-div,
+  .iframe-video-div {
+    width: 100%;
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .iframe-video-div-map {
+    width: 65%;
+  }
+}
+@media (max-width: 991.98px) {
+  .team-item {
+    width: 26%;
+  }
+  .team-item > div > div > p {
+    font-size: 0.9rem;
+  }
+  .team-item > .item-caption > .item-name {
+    min-height: 3.5em;
+  }
+  .margin-lilts-soundcloud {
+    margin: 0 !important;
+  }
+  .home-cards {
+    margin-bottom: 1.5em;
+  }
+  #services1-a {
+    padding-right: 2.5em;
+    padding-left: 2.5em;
+  }
+  .iframe-container-partings {
+    padding: 8% 10% !important;
+  }
+  #map-poster {
+    width: 60%;
+  }
+  .map-p-toggle-on {
+    display: inline-block;
+    max-width: 65%;
+    margin: auto;
+    background-color: #efefef;
+    border-top: #efefef solid 3.7em;
+    color: black;
+    padding: 2.6em 2em;
+  }
+  .map-poster-toggle-off {
+    display: none;
+  }
+  .info-div-map-toggle-off {
+    display: none;
+  }
+  .map-poster-close {
+    position: absolute;
+    left: 86%;
+    bottom: 98%;
+  }
+  .map-poster-close > div > button > svg {
+    font-size: 1.3em;
+  }
+  .map-poster-info {
+    position: absolute;
+    bottom: 0.4em;
+    left: 46%;
+  }
+  .map-p-toggle-off {
+    display: none;
+  }
+  .iframe-video-div {
+    width: 70%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .book-cover-div {
+    bottom: 12%;
+    right: 7%;
+  }
+  .book-cover-div > img {
+    width: 115%;
+  }
+  .college-caption {
+    font-size: 0.8em;
+  }
+  .cid-rowjJvyg8P .image_wrapper {
+    height: 300px;
+  }
+  .carousel-inner-edu {
+    min-height: 420px;
+  }
+}
+@media (max-width: 767.98px) {
+  .team-item > .item-caption > .item-name > p {
+    font-size: 1rem;
+  }
+  .team-item > .item-caption > .item-name {
+    padding: 0;
+  }
+  .team-item > .item-caption > .item-role {
+    min-height: 2.5em;
+  }
+  .team-item > .item-caption > .item-role > p {
+    font-size: 0.85rem;
+  }
+  .flip-card-container {
+    max-width: none !important;
+  }
+  .flip-card-container {
+    max-width: 380px !important;
+  }
+  #services1-a {
+    padding-right: 3.5em;
+    padding-left: 4.5em;
+  }
+  .iframe-container-partings {
+    padding: 15% 0% !important;
+  }
+  #map-poster {
+    width: 75%;
+  }
+  .map-p-toggle-on {
+    max-width: 79%;
+    padding: 0 15px;
+  }
+  .map-poster-close > div > button > svg {
+    font-size: 1.1em;
+  }
+  .map-poster-close {
+    left: 90%;
+    bottom: 101%;
+  }
+  .map-poster-info {
+    bottom: 0.3em;
+    left: 42%;
+  }
+  #info-div-map {
+    font-size: 1em;
+  }
+  .iframe-video-div {
+    width: 100%;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+  }
+  #back-top-button {
+    bottom: 10px;
+    right: 20px;
+    padding: 5px 9px;
+  }
+  .college-caption {
+    font-size: 0.8em;
+  }
+  .edu-col-text {
+    padding: 2em 0;
+  }
+  .edu-col-text > div {
+    padding-right: 2.5em;
+    padding-left: 2em;
+  }
+}
+@media (max-width: 575.98px) {
+  .team-item > .item-caption > .item-name > p {
+    font-size: 0.92rem;
+  }
+  .team-item > .item-caption > .item-name {
+    min-height: 3.5em;
+  }
+  .team-item > .item-caption > .item-role {
+    min-height: fit-content;
+  }
+  .team-item {
+    width: 65%;
+  }
+  .cid-rnDRUkIqAY {
+    display: none;
+  }
+  .cid-rnE1HgnRfz .section-text {
+    margin: 0 1.5em;
+  }
+  .cid-rnE1bmByu0 > div {
+    padding: 15px 25px;
+  }
+  #services1-a {
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+  }
+  .map-poster-info {
+    left: 27%;
+  }
+  #info-div-map {
+    font-size: 0.9em;
+  }
+  .map-poster-close {
+    left: 85%;
+  }
+  .iframe-video-div {
+    padding-right: 0.8em;
+    padding-left: 0.8em;
+  }
+  .college-caption {
+    font-size: 0.7em;
+  }
+  .cid-rowjJvyg8P .image_wrapper {
+    height: 250px;
+  }
+  .carousel-inner-edu {
+    min-height: 410px;
+  }
+}

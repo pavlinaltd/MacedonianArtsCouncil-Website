@@ -1,0 +1,142 @@
+.zoomable-image {
+   margin-top: 10px; 
+   margin-left: 50px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+ 
+    img {
+       cursor: zoom-in;
+       user-select: none;
+       transition: transform 0.25s ease-in-out;
+      
+    }
+ 
+    input {
+       display: none;
+ 
+       &:checked ~ label > img {
+          cursor: zoom-out;
+          transform: scale(3);
+          position: relative; 
+          left: 30vw;
+       }
+    }
+ }
+ .zoomable-image2 {
+   margin-top: 10px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: left;
+ 
+    img {
+       cursor: zoom-in;
+       user-select: none;
+       transition: transform 0.25s ease-in-out;
+    }
+ 
+    input {
+       display: none;
+ 
+       &:checked ~ label > img {
+          cursor: zoom-out;
+          transform: scale(3);
+       }
+    }
+ }
+ .zoomable-image3 {
+   margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: left;
+ 
+    img {
+       cursor: zoom-in;
+       user-select: none;
+       transition: transform 0.25s ease-in-out;
+    }
+ 
+    input {
+       display: none;
+ 
+       &:checked ~ label > img {
+          cursor: zoom-out;
+          transform: scale(3);
+          position: relative; 
+          right: 30vw;
+       }
+    }
+ }
+ /*$breakpoint-tablet: 875px;
+@media (max-width: $breakpoint-tablet) {
+    .zoomable-image {
+        margin: 1rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+        img {
+           cursor: zoom-in;
+           user-select: none;
+           transition: transform 0.25s ease-in-out;
+          
+        }
+     
+        input {
+           display: none;
+     
+           &:checked ~ label > img {
+              cursor: zoom-out;
+              transform: scale(2.5);
+              position: relative; 
+              left: 30vw;
+           }
+        }
+     }
+    .zoomable-image2 {
+        margin: 1rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+        img {
+           cursor: zoom-in;
+           user-select: none;
+           transition: transform 0.25s ease-in-out;
+        }
+     
+        input {
+           display: none;
+     
+           &:checked ~ label > img {
+              cursor: zoom-out;
+              transform: scale(3);
+           }
+        }
+     }
+    .zoomable-image3 {
+        margin: 1rem auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     
+        img {
+           cursor: zoom-in;
+           user-select: none;
+           transition: transform 0.25s ease-in-out;
+        }
+     
+        input {
+           display: none;
+     
+           &:checked ~ label > img {
+              cursor: zoom-out;
+              transform: scale(3);
+              position: relative; 
+              right: 30vw;
+           }
+        }
+     }
+}*/
+ 

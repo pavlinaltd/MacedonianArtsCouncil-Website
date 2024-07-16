@@ -1,0 +1,224 @@
+/* Hide element on Desktop */
+@media only screen and (min-width: 1024px) {
+    .hide-on-desktop {
+        display: block !important;
+    }
+    .position-web1 {
+        position: absolute;
+        left: 75px;
+        top: 8px;
+    }
+    .position-web {
+        position: absolute;
+        left: 107px;
+        top: 27px;
+    }
+    .position-w {
+        position: absolute;
+        top: 20px;
+        right: 0px;
+    }
+}
+.edit1 {
+    font-size: 22pt !important;
+}
+.edit2 {
+    display: none;
+    font-size: 15pt;
+}
+.moveme {
+    z-index: 1;
+    position: relative;
+    top: 100px;
+}
+.acolor {
+    color: white;
+  }
+  .acolor:hover {
+    color: white;
+  }
+.button1 {
+    background-color: rgb(212, 0, 0);
+    border: none;
+    color: rgb(255, 255, 255) !important;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 23px;
+  }
+  .button1:hover {
+    background-color: rgb(192, 2, 2);
+    border: none;
+    color: rgb(255, 255, 255) !important;
+    padding: 3px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px;
+    cursor: pointer;
+    border-radius: 23px;
+    box-shadow: 1px 1px 20px black;
+  }
+@media only screen and (max-width: 1200px) {
+    .edit1 {
+        font-size: 19pt !important;
+    }
+}
+/* Hide element on Tablet/Phone */
+@media only screen and (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .edit1 {
+        font-size: 14pt !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .edit1 {
+        display:none !important;
+    }
+    .edit2 {
+        display: block; 
+    }
+}
+@media only screen and (max-width: 522px) {
+    .edit1 {
+        display:none !important;
+    }
+    .edit2 {
+        display: block; 
+        font-size: 14pt;
+    }
+}
+.whitetr {
+    background-color: rgb(255, 255, 255);
+    position: relative; 
+    height: 100px;
+}
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -100deg,
+    #cecece 0%,
+    rgb(255, 255, 255) 25%,
+    #cecece 50%,
+    rgb(255, 255, 255) 75%,
+    #cecece 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 5s linear infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+.animate-charcter1
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -100deg,
+    #000000 0%,
+    orange 25%,
+    #ff1313 50%,
+    orange 75%,
+    #000000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip1 6s linear infinite;
+}
+
+@keyframes textclip1 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.animate-charcter2
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -100deg,
+    #000000 0%,
+    orange 25%,
+    #ff1313 50%,
+    orange 75%,
+    #000000 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip1 12s linear infinite;
+}
+
+@keyframes textclip1 {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.animate
+{
+  background-image: linear-gradient(
+    -100deg,
+    #ff1313 0%,
+    orange 30%,
+    orange 70%,
+    #ff1313 100%
+  );
+  background-color: #ff1313;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  animation: textclip1 5s linear infinite;
+}
+
+@keyframes textclip1 {
+from {
+        background-position: -200% center;
+      }  
+to {
+    background-position: 200% center;
+  }
+}
+
+.moveblog {
+    position: relative; 
+    top: -17px;
+}
+.moveblog2 {
+    position: relative; 
+    top: -34px;
+}
+.moveblog3 {
+    position: relative; 
+    top: -49px;
+}
+/*test*/
+.move127 {
+  position: relative;
+  top: 40px;
+}

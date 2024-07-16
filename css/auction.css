@@ -1,0 +1,7 @@
+.object-fit-contain {
+  object-fit: contain !important;
+}
+
+#art-text {
+  padding: 7rem !important;
+}

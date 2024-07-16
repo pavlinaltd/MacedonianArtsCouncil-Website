@@ -1,0 +1,168 @@
+.placement {
+  position: relative;
+  top: -25px;
+}
+
+.movieimg {
+  position: relative;
+  top: 60px;
+  margin-bottom: -500px !important;
+}
+.vishide {
+  visibility: hidden;
+}
+
+#stoyan {
+  height: 300px;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#stoyan > * {
+  height: 100%;
+}
+
+#stoyan > img {
+  object-fit: contain;
+}
+
+#stoyan > video {
+  object-fit: fill;
+}
+
+.media-container-row {
+  justify-content: space-evenly !important;
+}
+
+.media-container-row > * {
+  height: 100%;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 991px) {
+  .add1 {
+    position: relative;
+    right: 40%;
+  }
+}
+@media only screen and (max-width: 785px) {
+  .add1 {
+    width: 100% !important;
+  }
+
+  #stoyan {
+    height: unset;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .add1 {
+    width: 100% !important;
+    position: relative;
+    right: 40px;
+  }
+}
+.imginsert {
+  background-image: url(../Images/274927882_329414059233463_2098089772321958192_n.jpg);
+  background-size: 150% auto;
+  background-position: 0 0, center;
+  background-repeat: no-repeat;
+}
+.premove {
+  position: absolute;
+  left: -30px !important;
+}
+.nextmove {
+  position: absolute;
+  left: 610px !important;
+}
+@media only screen and (max-width: 1199px) {
+  .premove {
+    position: absolute;
+    left: -100px !important;
+  }
+  .nextmove {
+    position: absolute;
+    left: 565px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .premove {
+    position: absolute;
+    left: -100px !important;
+  }
+  .nextmove {
+    position: absolute;
+    left: 425px !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .premove {
+    position: absolute;
+    left: -40px !important;
+    top: 200px !important;
+  }
+  .nextmove {
+    position: absolute;
+    left: 460px !important;
+    top: 200px !important;
+  }
+
+  #stoyan {
+    flex-direction: column;
+    height: unset;
+  }
+}
+@media only screen and (max-width: 549px) {
+  .premove {
+    position: absolute;
+    left: -20px !important;
+    top: 200px !important;
+  }
+  .nextmove {
+    position: absolute;
+    left: 450px !important;
+    top: 200px !important;
+  }
+}
+@media only screen and (max-width: 534px) {
+  .premove {
+    position: absolute;
+    left: -10px !important;
+    top: 200px !important;
+  }
+  .nextmove {
+    position: absolute;
+    left: 425px !important;
+    top: 200px !important;
+  }
+}
+@media only screen and (max-width: 506px) {
+  .premove {
+    position: absolute;
+    left: -20px !important;
+    top: 200px !important;
+  }
+  .nextmove {
+    position: absolute;
+    left: 410px !important;
+    top: 200px !important;
+  }
+}
+@media only screen and (max-width: 486px) {
+  .premove {
+    position: relative;
+  }
+  .nextmove {
+    position: relative;
+  }
+}
+
+#video {
+  background-color: black;
+}
+
+.stoyan {
+  background-color: black;
+  height: 303.75px;
+}

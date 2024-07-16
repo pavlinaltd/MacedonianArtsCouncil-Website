@@ -1,0 +1,99 @@
+#row-costumes {
+	justify-content: center;
+}
+
+.cards {
+	display: flex;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	overflow-x: scroll;
+	background-color: white;
+	position: relative;
+}
+
+#costumes-gallery {
+}
+
+.card-author {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 60px;
+	align-items: center;
+}
+
+.carousel-inner,
+.carousel-item,
+img {
+	height: 100%;
+}
+
+#row-costumes .carousel {
+	max-width: 500px !important;
+}
+
+.author-name {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	line-height: 1.5rem;
+}
+
+.author-name-prefix {
+	color: #000000;
+	font-family: arial;
+	font-weight: bold;
+}
+
+/*  card scrollbar */
+.cards::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+
+.thumbnails img {
+	width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 300px;
+    
+}
+
+.zoom {
+	cursor: pointer;
+}
+
+.zoomed {
+	object-fit: contain;
+}
+
+@media (max-width: 768px) {
+	.thumbnails .row,
+	#costumes-gallery {
+		height: unset;
+	}
+
+	.zoomed {
+		display: none;
+	}
+}
+
+@media (max-width: 989px) {
+	.cards {
+		font-size: 12pt !important;
+	}
+}
+
+
+.thumbnail-image {
+	/* Adjust width/height as needed */
+	/* Example 1: Fixed width */
+	width: 150px;
+	height: auto;
+  
+	/* Example 2: Maintain aspect ratio with max-width */
+	/* max-width: 150px; */
+	/* aspect-ratio: 4/3; */  /* Adjust aspect ratio as needed */
+  
+	/* Optional: Add spacing */
+	margin: 5px;
+  }
+  

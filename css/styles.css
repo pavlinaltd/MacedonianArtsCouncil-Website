@@ -1,0 +1,355 @@
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.main_wrapper {
+	position: relative;
+	top: 90px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 130px;
+}
+
+.size-23 {
+	width: 300px;
+	position: relative;
+	left: 200px;
+}
+.size-24 {
+	position: relative;
+	left: -60px;
+}
+.banner-bg {
+	background-image: url('../assets/images/banner-2.webp');
+	background-position: top;
+	height: 300px;
+}
+.btn-bdr {
+	border: 1px solid #d82126;
+}
+.btn-bg {
+	background: linear-gradient(0deg, #ffd034, #d82126);
+}
+.section-bg-gray {
+	background-color: #efefef;
+}
+.video-container {
+	position: relative;
+	padding-bottom: 40%; /* 16:9 aspect ratio */
+	padding-top: 30px;
+	height: 0;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.responsive-iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.pulsate {
+	-webkit-animation: pulsate 3s ease-out;
+	-webkit-animation-iteration-count: infinite;
+	opacity: 0.7;
+}
+@-webkit-keyframes pulsate {
+	0% {
+		opacity: 0.7;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.7;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.size-23 {
+		width: 300px;
+		position: relative;
+		left: 150px;
+	}
+	.size-24 {
+		position: relative;
+		left: -20px;
+	}
+}
+@media screen and (max-width: 991px) {
+	.size-23 {
+		width: 300px;
+		position: relative;
+		left: 90px;
+	}
+	.size-24 {
+		position: relative;
+		left: 40px;
+	}
+}
+@media screen and (max-width: 767px) {
+	.size-23 {
+		width: 300px;
+		position: relative;
+		left: 40px;
+	}
+	.size-24 {
+		position: relative;
+		left: 80px;
+	}
+}
+@media screen and (max-width: 543px) {
+	.size-24 {
+		position: relative;
+		left: -110px;
+		top: 50px;
+	}
+}
+.hover:hover {
+	color: grey;
+}
+/*
+.txtsize {
+    font-size: 270pt;
+    font-weight: bolder;
+}
+.animate-charctert
+{
+   text-transform: uppercase;
+  background-image: url("../Images/menada-small.JPG");
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 100% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    min-width: 250px;
+    padding: 0;
+    transition: 0.2s;
+  }  */
+/*  card scrollbar */
+/*.cards::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }*/
+
+/* Card Hover */
+
+/*.card:hover ~ .card {
+    transform: translateX(130px);
+  }*/
+
+.imgposition {
+	position: relative;
+	left: 47px;
+	top: -1px;
+}
+
+.add {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	font-family: Lato, sans-serif;
+	background: #333;
+}
+
+.img5 {
+	height: 200px;
+}
+
+/*Dedicated to the promotion and affirmation
+of Macedonian cultural heritage. section*/
+.mable {
+	font-size: 26pt;
+}
+.dedicated {
+	position: relative;
+	top: -20px;
+}
+
+/*Our main objective is to introduce to people worldwide the rich traditions, language, literature, and art of a nation whose diverse cultural threads are interwoven into the ethnic tapestries of the world. section*/
+.pine {
+	font-size: 20pt;
+}
+/*Title img Arts hero image*/
+@media only screen and (min-width: 0px) {
+	.card-img-top {
+		position: relative;
+		z-index: 2;
+		height: auto;
+		width: auto;
+		transform: translateY(0);
+		transition: 0.5s;
+	}
+}
+
+@media only screen and (max-width: 995px) {
+	.mable {
+		font-size: 20pt;
+	}
+	.pine {
+		font-size: 15pt;
+	}
+}
+
+.mr-3 {
+	margin-bottom: 1rem;
+}
+
+
+  
+@media (max-width: 800px) {
+	.clothes-container {
+	  display: grid;
+	  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	  gap: 10px;
+	  width: 100%;
+	  padding: 0 5px;
+	  margin-left: 100px;
+	}
+  
+	.art-row img {
+	  width: 100%;
+	  height: auto;
+	  margin-bottom: 5px;
+	}
+  }
+
+  @media (max-width: 750px) {
+	.monogram-container{
+		display:flex;
+		flex-direction: column;
+	}
+	.treasure-column {
+		max-width: 75%;
+	}
+
+	.treasure-column p{
+		font-size: 12px;
+	}
+
+	.pilgrimage-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+  }
+
+  .pilgrimage-container p{
+	font-size: 20px;
+  }
+
+  @media(max-width: 750px){
+	.contact-input{
+		margin-left: 200px;
+	}
+  }
+
+.brief-descriptions {
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+@media (max-width: 45em) {
+}
+ {
+	.pose {
+		position: relative;
+		top: -100px;
+	}
+}
+
+.heading-project {
+	margin: 24px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#poster {
+	object-position: bottom;
+	height: 450px;
+	object-fit: cover;
+	box-shadow: 0px 0px 10px 0px #888888;
+}
+
+.stack {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.stack > * {
+	margin: 1.5rem 0 0 0;
+}
+
+.stack > :last-child {
+	margin: 0 0 1.5rem 0;
+}
+
+.wrapper__cta {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper__cta > .button {
+	margin: auto;
+}
+
+.border__light {
+	border: 1px solid lightgray;
+}
+
+.btn {
+	border-radius: 100px;
+}
+
+.home-card-text p {
+	min-height: 225px;
+}
+
+.section__main {
+	position: relative;
+	top: 90px;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 130px;
+}
+
+.wrapper__cards {
+	justify-content: center;
+}
+@media (max-width: 35em) {
+	.home-card-text p {
+		min-height: unset;
+	}
+
+	#poster {
+		height: unset;
+	}
+}
+
+.subheading_in-dev {
+	background-color: #efefef;
+	margin: auto;
+	padding: 0.5rem;
+}
+
+.object-fit-contain {
+	object-fit: contain !important;
+}

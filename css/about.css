@@ -1,0 +1,227 @@
+* {
+  outline: 1px solid hashtag#ff0000;
+  }
+#flipped-stroke {
+  transform: scaleX(-1);
+}
+
+.about {
+  position: relative;
+  top: 90px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.about > section {
+  margin: 24px 0;
+}
+
+.heading,
+.subheading {
+  text-transform: uppercase;
+}
+
+.mbr-section-subtitle {
+  text-align: justify;
+  text-align-last: justify;
+  /* font-size: 24px; */
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.advisor-items {
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.75rem 1.5rem;
+  gap: 1.75rem;
+}
+
+.advisor-items > div {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  max-width: 22.5%;
+}
+
+.advisor-items img {
+  max-height: 250px;
+}
+
+blockquote {
+  font-size: 1.5rem !important;
+  border-left: unset !important;
+  padding: unset !important;
+}
+
+.height {
+  width: 920px;
+}
+.herocontain {
+  height: 500px;
+  position: relative;
+  top: 150px;
+}
+.stickyimg {
+  position: relative;
+  height: 300px;
+}
+.hero-image {
+  /*I own this image*/
+  background-image: url("../assets/images/skquote-1500x480.png");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /*image is fixed in background all other elements are scrolling*/
+  /*background attachement makes image fixed*/
+  position: relative;
+}
+img {
+  display: block !important;
+}
+.language1 {
+  top: 100px;
+}
+/* .move1 {
+  position: relative;
+  z-index: -1;
+} */
+/* 
+.director {
+  position: relative;
+  z-index: -1;
+}
+
+.directors {
+  margin: 24px 0;
+} */
+
+/*Our Awesome team*/
+/* .awesome {
+  position: relative;
+  z-index: -1;
+} */
+
+.advisors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-color: #efefef !important;
+}
+
+/* .move2 {
+  position: relative;
+  z-index: -1;
+} */
+.tophr,
+.bottomhr {
+  position: relative;
+}
+
+.fontsize {
+  font-size: 18pt;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.width1 {
+  width: 790px;
+}
+.movie7 {
+  position: relative;
+  top: -44px;
+}
+
+.redline {
+  height: 30px;
+}
+/*1199*/
+@media only screen and (max-width: 1199px) {
+  .width1 {
+    width: 650px;
+  }
+}
+@media only screen and (max-width: 1297px) {
+  .fontsize {
+    font-size: 16pt;
+  }
+}
+@media only screen and (max-width: 1165px) {
+  .fontsize {
+    font-size: pt;
+  }
+}
+@media only screen and (max-width: 1292px) {
+  .height {
+    width: 920px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .height {
+    width: 790px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .height {
+    width: 630px;
+  }
+  .width1 {
+    width: 100%;
+  }
+  .movie7 {
+    position: relative;
+    top: 0px;
+  }
+
+  .advisor-items > div {
+    max-width: unset;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .blockquote {
+    font-size: 1rem !important;
+  }
+
+  .height {
+    width: 100%;
+  }
+  .width1 {
+    width: 100%;
+  }
+}
+
+.sizing {
+  width: 920px;
+  margin-left: 95px !important;
+}
+@media only screen and (max-width: 1199px) {
+  .sizing {
+    margin-left: 75px !important;
+    width: 780px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .sizing {
+    margin-left: 45px !important;
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sizing {
+    margin-left: 21px !important;
+    width: 470px;
+  }
+
+  .mbr-section-subtitle {
+    font-size: 16px;
+  }
+}
