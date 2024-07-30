@@ -112,6 +112,12 @@ body {
 .hover:hover {
 	color: grey;
 }
+
+.classof14header {
+	background-image: url("../Images/classof14.JPG");
+	color: cyan;
+	padding: 30px;
+}
 /*
 .txtsize {
     font-size: 270pt;
