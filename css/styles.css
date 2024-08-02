@@ -113,6 +113,16 @@ body {
 	color: grey;
 }
 
+.classof2014 {
+	display: flex;
+}
+
+@media (max-width: 750px){
+	.classof2014 {
+		display: block;
+	}
+}
+
 .classof14header {
 	background-image: url("../Images/classof14.JPG");
 	color: cyan;
