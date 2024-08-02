@@ -118,8 +118,8 @@ body {
 }
 
 @media (max-width: 750px){
-	.classof2014 {
-		display: block;
+	.classof14header {
+		font-size: 11px;
 	}
 }
 
