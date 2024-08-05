@@ -121,13 +121,17 @@ body {
 	.classof14header {
 		font-size: 11px;
 	}
+
+	#map-poster{
+		margin-right: 10px;
+	}
 }
 
 .classof14header {
-	background-image: url("../Images/classof14.JPG");
-	color: cyan;
 	padding: 30px;
 }
+
+
 /*
 .txtsize {
     font-size: 270pt;
@@ -270,8 +274,9 @@ of Macedonian cultural heritage. section*/
   }
 
   @media(max-width: 750px){
-	.contact-input{
-		margin-left: 200px;
+	.contact-us {
+		display: flex;
+		align-self: center;
 	}
   }
 
