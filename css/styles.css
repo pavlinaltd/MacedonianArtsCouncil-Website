@@ -125,6 +125,26 @@ body {
 	#map-poster{
 		margin-right: 10px;
 	}
+
+	.buy-now {
+		flex-shrink: 1;
+	}
+
+	.book-cover-div{
+		display: block;
+	}
+
+	.monogram-container{
+		display: flex;
+		align-items: center;
+	}
+
+	
+	.treasure-column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
 .classof14header {
