@@ -117,6 +117,18 @@ body {
 	display: flex;
 }
 
+@media (min-width: 1000px){
+	.classof14table tr td {
+		border: 1px solid black; border-bottom: none; padding: 0; margin: 0;
+	}
+	.classof14table tr td img{
+		display: block;
+	}
+	.classof14table{
+		width: 600px; text-align: center; border-collapse: collapse; table-layout: fixed;
+	}
+}
+
 @media (max-width: 750px){
 	.classof14header {
 		font-size: 11px;
@@ -133,12 +145,38 @@ body {
 	.book-cover-div{
 		display: block;
 	}
+	
+	.alphabet-bar{
+		width: 100%;
+	}
 
 	.monogram-container{
 		display: flex;
 		align-items: center;
 	}
 
+	.classof14header {
+		font-size: 12px;
+		padding: 2px;
+	}
+
+	.classof14table tr td img {
+		max-width: 100px;
+	}
+
+	
+
+	.classof14table tr td{
+		min-width: 200px;
+	}
+
+	.classof14table {
+		width: 100%;
+	}
+
+	.classof14table tr{
+		width: 100%;
+	}
 	
 	.treasure-column {
 		display: flex;
