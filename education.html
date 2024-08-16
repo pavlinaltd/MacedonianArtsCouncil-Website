@@ -247,33 +247,33 @@
         <img src="Images/classof14.JPG" class="alphabet-bar" alt="alphabet bar" style="max-height: 50px; width: 73%; object-fit: cover; margin-bottom: 100px;">
         <div class="classof2014" style="display: flex; align-items: stretch; justify-content: center; margin: auto;">
             <h2 class="align-center pb-3 mbr-fonts-style display-2 classof14header" 
-                style="font-size: 23px; text-align: center; border: 2px solid black; padding: 10px; margin: 0;">
-                T<br>h<br>e<br> <br>C<br>l<br>a<br>s<br>s<br><br>of 2014
+                style="font-size: 18px; text-align: center; border: 2px solid black; padding: 10px; margin: 0; background-color: rgb(246, 246, 32);">
+                <b>T<br><br>h<br><br>e<br><br><br><br>C<br><br>L<br><br>A<br><br>S<br><br>S<br><br><br><br><br>of 2014</b>
             </h2>
             <table style="border-collapse: collapse; table-layout: fixed;" class="classof14table">
                 <tr>
-                    <td style="border: 1px solid black; padding: 0; margin: 0;">
-                        <img src="Images/ana.jpg" alt="Ana" style="width: 203px; height: auto; display: block;" class="anaimg">
+                    <td style="padding: 10px; text-align: center;">
+                        <img src="Images/ana.jpg" alt="Ana" style="width: 100%; max-width: 253px; height: auto; display: block; margin: auto; margin-left: none;" class="anaimg">
                         <br>Ana Milosheska
                     </td>
-                    <td style="border: 1px solid black; padding: 0; margin: 0;">
-                        <img src="Images/vesna.jpg" alt="Vesna" style="width: 200px; height: auto; display: block;">
+                    <td style="padding: 10px; text-align: center;">
+                        <img src="Images/vesna.jpg" alt="Vesna" style="width: 100%; max-width: 250px; height: auto; display: block; margin: auto;">
                         <br>Vesna Denkina
                     </td>
-                    <td style="border: 1px solid black; padding: 0; margin: 0;">
-                        <img src="Images/valentina.jpg" alt="Valentina" style="width: 200px; height: auto; display: block;">
+                    <td style="padding: 10px; text-align: center;">
+                        <img src="Images/valentina.jpg" alt="Valentina" style="width: 100%; max-width: 250px; height: auto; display: block; margin: auto;">
                         <br>Valentina Gorgievska
                     </td>
                 </tr>
                 <tr>
-                    <td style="border: 1px solid black; padding: 0; margin: 0;">
-                        <i>Women in the New Тestament</i><br> Bachelor of Arts in South Slavic and Macedonian Literature
+                    <td style="padding: 10px; text-align: center;">
+                       <br> <i>Women in the New Тestament</i><br>BA in South Slavic and Macedonian Literature
                     </td>
-                    <td style="border: 1px solid black; padding: 0; margin: 0;">
-                        <i>Orpheus’ Doctrine of the Afterlife</i><br> Bachelor of Arts in Classical Philology
+                    <td style="padding: 10px; text-align: center;">
+                        <i>Orpheus’ Doctrine of the Afterlife</i><br>BA in Classical Philology
                     </td>
-                    <td style="border: 1px solid black; padding: 0; margin: 0;">
-                        <i>Weapons names in Mycenaean Greek</i><br> Bachelor of Arts in Classical Philology
+                    <td style="padding: 10px; text-align: center;">
+                        <i>Weapons names in Mycenaean Greek</i><br>BA in Classical Philology
                     </td>
                 </tr>
             </table>
@@ -467,5 +467,22 @@
             <input name="cookieData" type="hidden" data-cookie-customDialogSelector="null" data-cookie-colorText="#424a4d" data-cookie-colorBg="rgba(234, 239, 241, 0.99)" data-cookie-textButton="Agree" data-cookie-colorButton="" data-cookie-colorLink="#424a4d" data-cookie-underlineLink="true"
                 data-cookie-text="We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>." />
 </body>
+
+<script>
+    window.addEventListener('resize', function() {
+    var width = window.innerWidth;
+    var header = document.querySelector('.classof14header');
+    
+    if (width <= 768) {
+        header.innerHTML = '<b>The<br><br>C<br>l<br>a<br>s<br>s<br><br>of 2014</b>';
+    }
+    else {
+        header.innerHTML = '<b>T<br><br>h<br><br>e<br><br><br><br>C<br><br>L<br><br>A<br><br>S<br><br>S<br><br><br><br><br>of 2014</b>';
+    }
+    });
+
+// Trigger the function on load
+    window.dispatchEvent(new Event('resize'));
+</script>
 
 </html>
