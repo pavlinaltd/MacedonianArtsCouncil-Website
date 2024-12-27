@@ -324,12 +324,12 @@ of Macedonian cultural heritage. section*/
 		font-size: 12px;
 	}
 
-	.pilgrimage-container{
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-  }
+.pilgrimage-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+}
 
   .pilgrimage-container p{
 	font-size: 20px;
