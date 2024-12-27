@@ -112,6 +112,88 @@ body {
 .hover:hover {
 	color: grey;
 }
+
+.classof2014 {
+	display: flex;
+}
+
+@media (min-width: 1000px){
+	.classof14table tr td img{
+		display: block;
+	}
+	.classof14table{
+		width: 600px; text-align: center; border-collapse: collapse; table-layout: fixed;
+	}
+}
+
+@media (max-width: 750px){
+	.classof14header {
+		font-size: 11px;
+	}
+
+	#map-poster{
+		margin-right: 10px;
+	}
+
+	.buy-now {
+		flex-shrink: 1;
+	}
+
+	.book-cover-div{
+		display: block;
+	}
+	
+	.alphabet-bar{
+		width: 100%;
+	}
+
+	.monogram-container{
+		display: flex;
+		align-items: center;
+	}
+
+
+	.classof14table tr td img {
+		max-width: 100px;
+	}
+
+	
+
+	.classof14table tr td{
+		min-width: 200px;
+	}
+
+	.classof14table {
+		width: 100%;
+		height: 500px;
+	}
+
+	.youtube-vids {
+		width: 450px;
+	}
+
+	.classof14header{
+		height: 500px;
+		font-size: 5px;
+		padding: 2px;
+	}
+
+	.classof14table tr{
+		width: 100%;
+	}
+	
+	.treasure-column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.classof14header {
+	padding: 30px;
+}
+
+
 /*
 .txtsize {
     font-size: 270pt;
@@ -254,8 +336,9 @@ of Macedonian cultural heritage. section*/
   }
 
   @media(max-width: 750px){
-	.contact-input{
-		margin-left: 200px;
+	.contact-us {
+		display: flex;
+		align-self: center;
 	}
   }
 
@@ -353,3 +436,4 @@ of Macedonian cultural heritage. section*/
 .object-fit-contain {
 	object-fit: contain !important;
 }
+ 
