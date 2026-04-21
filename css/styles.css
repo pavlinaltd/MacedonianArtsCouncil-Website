@@ -17,27 +17,34 @@ body {
 	position: relative;
 	left: 200px;
 }
+
 .size-24 {
 	position: relative;
 	left: -60px;
 }
+
 .banner-bg {
 	background-image: url('../assets/images/banner-2.webp');
 	background-position: top;
 	height: 300px;
 }
+
 .btn-bdr {
 	border: 1px solid #d82126;
 }
+
 .btn-bg {
 	background: linear-gradient(0deg, #ffd034, #d82126);
 }
+
 .section-bg-gray {
 	background-color: #efefef;
 }
+
 .video-container {
 	position: relative;
-	padding-bottom: 40%; /* 16:9 aspect ratio */
+	padding-bottom: 40%;
+	/* 16:9 aspect ratio */
 	padding-top: 30px;
 	height: 0;
 	max-width: 600px;
@@ -57,13 +64,16 @@ body {
 	-webkit-animation-iteration-count: infinite;
 	opacity: 0.7;
 }
+
 @-webkit-keyframes pulsate {
 	0% {
 		opacity: 0.7;
 	}
+
 	50% {
 		opacity: 1;
 	}
+
 	100% {
 		opacity: 0.7;
 	}
@@ -75,33 +85,39 @@ body {
 		position: relative;
 		left: 150px;
 	}
+
 	.size-24 {
 		position: relative;
 		left: -20px;
 	}
 }
+
 @media screen and (max-width: 991px) {
 	.size-23 {
 		width: 300px;
 		position: relative;
 		left: 90px;
 	}
+
 	.size-24 {
 		position: relative;
 		left: 40px;
 	}
 }
+
 @media screen and (max-width: 767px) {
 	.size-23 {
 		width: 300px;
 		position: relative;
 		left: 40px;
 	}
+
 	.size-24 {
 		position: relative;
 		left: 80px;
 	}
 }
+
 @media screen and (max-width: 543px) {
 	.size-24 {
 		position: relative;
@@ -109,6 +125,7 @@ body {
 		top: 50px;
 	}
 }
+
 .hover:hover {
 	color: grey;
 }
@@ -117,21 +134,25 @@ body {
 	display: flex;
 }
 
-@media (min-width: 1000px){
-	.classof14table tr td img{
+@media (min-width: 1000px) {
+	.classof14table tr td img {
 		display: block;
 	}
-	.classof14table{
-		width: 600px; text-align: center; border-collapse: collapse; table-layout: fixed;
+
+	.classof14table {
+		width: 600px;
+		text-align: center;
+		border-collapse: collapse;
+		table-layout: fixed;
 	}
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
 	.classof14header {
 		font-size: 11px;
 	}
 
-	#map-poster{
+	#map-poster {
 		margin-right: 10px;
 	}
 
@@ -139,15 +160,15 @@ body {
 		flex-shrink: 1;
 	}
 
-	.book-cover-div{
+	.book-cover-div {
 		display: block;
 	}
-	
-	.alphabet-bar{
+
+	.alphabet-bar {
 		width: 100%;
 	}
 
-	.monogram-container{
+	.monogram-container {
 		display: flex;
 		align-items: center;
 	}
@@ -157,9 +178,9 @@ body {
 		max-width: 100px;
 	}
 
-	
 
-	.classof14table tr td{
+
+	.classof14table tr td {
 		min-width: 200px;
 	}
 
@@ -172,16 +193,16 @@ body {
 		width: 450px;
 	}
 
-	.classof14header{
+	.classof14header {
 		height: 500px;
 		font-size: 5px;
 		padding: 2px;
 	}
 
-	.classof14table tr{
+	.classof14table tr {
 		width: 100%;
 	}
-	
+
 	.treasure-column {
 		display: flex;
 		flex-direction: column;
@@ -194,45 +215,6 @@ body {
 }
 
 
-/*
-.txtsize {
-    font-size: 270pt;
-    font-weight: bolder;
-}
-.animate-charctert
-{
-   text-transform: uppercase;
-  background-image: url("../Images/menada-small.JPG");
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 100% auto;
-  color: #fff;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 6s linear infinite;
-  display: inline-block;
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border-radius: 16px;
-    min-width: 250px;
-    padding: 0;
-    transition: 0.2s;
-  }  */
-/*  card scrollbar */
-/*.cards::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }*/
-
-/* Card Hover */
-
-/*.card:hover ~ .card {
-    transform: translateX(130px);
-  }*/
 
 .imgposition {
 	position: relative;
@@ -258,6 +240,7 @@ of Macedonian cultural heritage. section*/
 .mable {
 	font-size: 26pt;
 }
+
 .dedicated {
 	position: relative;
 	top: -20px;
@@ -267,6 +250,7 @@ of Macedonian cultural heritage. section*/
 .pine {
 	font-size: 20pt;
 }
+
 /*Title img Arts hero image*/
 @media only screen and (min-width: 0px) {
 	.card-img-top {
@@ -283,6 +267,7 @@ of Macedonian cultural heritage. section*/
 	.mable {
 		font-size: 20pt;
 	}
+
 	.pine {
 		font-size: 15pt;
 	}
@@ -293,54 +278,55 @@ of Macedonian cultural heritage. section*/
 }
 
 
-  
+
 @media (max-width: 800px) {
 	.clothes-container {
-	  display: grid;
-	  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-	  gap: 10px;
-	  width: 100%;
-	  padding: 0 5px;
-	  margin-left: 100px;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+		gap: 10px;
+		width: 100%;
+		padding: 0 5px;
+		margin-left: 100px;
 	}
-  
-	.art-row img {
-	  width: 100%;
-	  height: auto;
-	  margin-bottom: 5px;
-	}
-  }
 
-  @media (max-width: 750px) {
-	.monogram-container{
-		display:flex;
+	.art-row img {
+		width: 100%;
+		height: auto;
+		margin-bottom: 5px;
+	}
+}
+
+@media (max-width: 750px) {
+	.monogram-container {
+		display: flex;
 		flex-direction: column;
 	}
+
 	.treasure-column {
 		max-width: 75%;
 	}
 
-	.treasure-column p{
+	.treasure-column p {
 		font-size: 12px;
 	}
 
-.pilgrimage-container{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
+	.pilgrimage-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 }
 
-  .pilgrimage-container p{
+.pilgrimage-container p {
 	font-size: 20px;
-  }
+}
 
-  @media(max-width: 750px){
+@media(max-width: 750px) {
 	.contact-us {
 		display: flex;
 		align-self: center;
 	}
-  }
+}
 
 .brief-descriptions {
 	font-size: 20px;
@@ -348,9 +334,9 @@ of Macedonian cultural heritage. section*/
 	font-weight: bold;
 }
 
-@media (max-width: 45em) {
-}
- {
+@media (max-width: 45em) {}
+
+	{
 	.pose {
 		position: relative;
 		top: -100px;
@@ -376,11 +362,11 @@ of Macedonian cultural heritage. section*/
 	align-items: center;
 }
 
-.stack > * {
+.stack>* {
 	margin: 1.5rem 0 0 0;
 }
 
-.stack > :last-child {
+.stack> :last-child {
 	margin: 0 0 1.5rem 0;
 }
 
@@ -390,7 +376,7 @@ of Macedonian cultural heritage. section*/
 	align-items: center;
 }
 
-.wrapper__cta > .button {
+.wrapper__cta>.button {
 	margin: auto;
 }
 
@@ -417,6 +403,7 @@ of Macedonian cultural heritage. section*/
 .wrapper__cards {
 	justify-content: center;
 }
+
 @media (max-width: 35em) {
 	.home-card-text p {
 		min-height: unset;
@@ -436,4 +423,10 @@ of Macedonian cultural heritage. section*/
 .object-fit-contain {
 	object-fit: contain !important;
 }
- 
+
+.gala-media {
+	width: 100%;
+	height: 320px;
+	display: block;
+	object-fit: cover;
+}
