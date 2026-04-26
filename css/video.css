@@ -5,9 +5,11 @@
 #gotse {
 	background-color: black;
 }
+
 /* Custom CSS for Highlighted Text */
 .highlight-text {
-	color: #7a7b7b; /* Change to your desired highlight color */
+	color: #7a7b7b;
+	/* Change to your desired highlight color */
 	font-weight: bold;
 }
 
@@ -15,33 +17,47 @@
 .blockquote {
 	font-style: italic;
 	font-size: 1rem;
-	margin: 0; /* Remove default margin */
-	padding: 0; /* Remove default padding */
-	color: #555; /* Change to your desired blockquote text color */
+	margin: 0;
+	/* Remove default margin */
+	padding: 0;
+	/* Remove default padding */
+	color: #555;
+	/* Change to your desired blockquote text color */
 }
+
 .mov-img {
 	width: 300px;
 	height: 600px;
 }
+
 .fs-5 {
 	font-size: 1.1rem;
 }
+
 body {
-font-family: Arial, sans-serif;
-padding: 0px;
+	font-family: Arial, sans-serif;
+	padding: 0px;
 }
+
 .imdb-link {
-text-decoration: none;
-color: #000;
-font-weight: bold;
-font-size: 18px;
-background-color: #f5c518;
-padding: 10px 20px;
-border-radius: 5px;
-transition: background-color 0.3s ease-in-out;
-font-family: Impact, Arial, sans-serif; /* Use Impact font */
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #f5c518;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: background-color 0.3s ease-in-out;
+	font-family: Impact, Arial, sans-serif;
+	/* Use Impact font */
 }
+
 .imdb-link:hover {
-background-color: #e0b416;
+	background-color: #e0b416;
 }
-									
+
+video {
+	aspect-ratio: 16/9 !important;
+	width: 100% !important;
+	height: auto !important;
+}
